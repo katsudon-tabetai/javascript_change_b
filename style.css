@@ -24,6 +24,26 @@
     --color-text: #fff;
 }
 
+#btn-a {
+    background-color: orange;
+    color: #000;
+}
+
+#btn-b {
+    background-color: green;
+    color: #000;
+}
+
+#btn-c {
+    background-color: navy;
+    color: #fff;
+}
+
+#btn-d {
+    background-color: red;
+    color: #fff;
+}
+
 body {
     background-color: var(--color-main);
     color: var(--color-text);
