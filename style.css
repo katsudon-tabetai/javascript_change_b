@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: orange;
+    --color-sub: gold;
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  green;
+    --color-sub: lightgreen;
+    --color-text: #000;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: navy;
+    --color-sub: blue;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-d"] {
+    --color-main: red;
+    --color-sub: deeppink;
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
